@@ -9,6 +9,6 @@ export const client = sanityClient({
   token: process.env.REACT_APP_SANITY_TOKEN,
 });
 
-const builder = imageUrlBuilder(client);
+const builder = imageUrlBuilder(client); //sanity link ovde slika
 
 export const urlFor = (source) => builder.image(source);

@@ -45,7 +45,7 @@ export default {
       name: 'save',
       title: 'Save',
       type: 'array',
-      of: [{type: 'save'}],
+      of: [{type: 'save'}], //brojimo koliko imamo savova
     },
     {
       name: 'comments',
